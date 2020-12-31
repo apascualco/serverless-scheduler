@@ -1,0 +1,4 @@
+  handler: src/example/schedule.handler
+  description: "Serverless scheduler aws example offline"
+  events:
+      - schedule: cron(0/2 * * * ? *)
